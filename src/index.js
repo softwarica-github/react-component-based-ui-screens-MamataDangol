@@ -31,10 +31,9 @@ class Index extends React.Component {
 
                 <div>
                     
-                   
-
                     <div> {/* for wrapping jsx components or use Fragment <> </> */}
                         <Router>
+                        <Row style={{marginBottom:'40px'}}>
                             <div>
                                 {/*Navbar using bootstrap */}
                                 <Nav variant="pills">
@@ -64,6 +63,7 @@ class Index extends React.Component {
 
                                 </Nav>
                             </div>
+                            </Row>
 
                             <Switch>
                             
